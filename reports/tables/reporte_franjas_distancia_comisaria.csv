@@ -1,0 +1,5 @@
+﻿franja_distancia_comisaria,cantidad_delitos,porcentaje,porcentaje_acumulado
+ENTORNO INMEDIATO (0-500 m),47871,31.34,31.34
+CERCANA (501-900 m),55074,36.06,67.4
+INTERMEDIA (901-1350 m),31953,20.92,88.32
+ALEJADA (MAS DE 1350 m),17841,11.68,100.0
