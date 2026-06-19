@@ -93,8 +93,8 @@ El proyecto utilizó varias fuentes, lo cual fortalece el análisis y cumple una
 
 | Fuente | Archivo | Uso en el proyecto |
 |---|---|---|
-| Delitos CABA 2023 | `delitos_2023(1).csv` / `delitos_2023_caba_limpio.csv` | Base principal de hechos delictivos |
-| Comisarías Policía de la Ciudad | `comisarias_policia(1).csv` | Cálculo de sede policial más cercana |
+| Delitos CABA 2023 | `delitos_2023.csv` / `delitos_2023_caba_limpio.csv` | Base principal de hechos delictivos |
+| Comisarías Policía de la Ciudad | `comisarias_policia.csv` | Cálculo de sede policial más cercana |
 | Jurisdicciones policiales | `division_comisaria_vecinal.csv` | Asignación de comisaría jurisdiccional |
 | Barrios CABA | `barrios.csv` | Polígonos barriales y superficie |
 | Población por barrio | `caba_pob_barrios_2010.csv` | Estimación poblacional por franja |
@@ -338,7 +338,7 @@ Esto muestra que el pico absoluto entre 501 y 900 metros se explica en gran part
 
 La segunda corrección consistió en estimar la población dentro de cada franja. Para ello se cruzaron las franjas de distancia con los polígonos barriales y se distribuyó la población de cada barrio proporcionalmente a la superficie del barrio contenida en cada franja.
 
-La estimación supone población uniforme dentro de cada barrio. Es una aproximación razonable para un TPO, pero debe declararse como limitación.
+La estimación supone población uniforme dentro de cada barrio. Es una aproximación razonable, pero debe declararse como limitación.
 
 | Franja de distancia | Población estimada | Hab./km² | Delitos cada 10.000 hab. | Índice vs. 0-500 |
 | --- | --- | --- | --- | --- |
